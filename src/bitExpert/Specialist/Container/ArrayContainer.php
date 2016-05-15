@@ -59,7 +59,7 @@ class ArrayContainer implements ContainerInterface
 
     /**
      * Sets the given $entry for the given $id
-     * 
+     *
      * @param $id
      * @param $entry
      * @return ArrayContainer

@@ -48,7 +48,7 @@ class ArrayContainerUnitTest extends \PHPUnit_Framework_TestCase
      */
     public function getReturnsEntryIfExistsWithIdAsKey()
     {
-       $this->assertEquals($this->container->get('testId1'), 'testValue1'); 
+        $this->assertEquals($this->container->get('testId1'), 'testValue1');
     }
 
     /**
