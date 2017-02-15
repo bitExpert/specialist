@@ -10,12 +10,11 @@
  */
 namespace bitExpert\Specialist\Container;
 
-use Interop\Container\Exception\NotFoundException;
+use Psr\Container\NotFoundExceptionInterface;
 
 /**
  * Implementation of the {@link \Interop\Container\Exception\NotFoundException} interface
  */
-class EntryNotFoundException extends \InvalidArgumentException implements NotFoundException
+class EntryNotFoundException extends \InvalidArgumentException implements NotFoundExceptionInterface
 {
-
 }

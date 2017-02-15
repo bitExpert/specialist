@@ -1,7 +1,17 @@
 # bitexpert/specialist
 
+This package provides a [PSR-11](http://www.php-fig.org/psr/psr-11/) compatible,
+dependency injection container.
+
 [![Build Status](https://travis-ci.org/bitExpert/specialist.svg?branch=master)](https://travis-ci.org/bitExpert/specialist)
-[![Dependency Status](https://www.versioneye.com/user/projects/5750a2ae91bfda004be923c6/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5750a2ae91bfda004be923c6)
+
+## Installation
+
+The preferred way of installing `bitexpert/specialist` is through Composer. Simply add `bitexpert/specialist` as a dependency:
+
+```
+composer.phar require bitexpert/specialist
+```
 
 License
 -------
