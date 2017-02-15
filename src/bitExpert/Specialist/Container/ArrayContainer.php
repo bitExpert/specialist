@@ -10,10 +10,10 @@
  */
 namespace bitExpert\Specialist\Container;
 
-use Interop\Container\ContainerInterface;
+use Psr\Container\ContainerInterface;
 
 /**
- * An {@link \Interop\Container\ContainerInterface} which operates on a simple
+ * An {@link \Psr\Container\ContainerInterface} which operates on a simple
  * array where entries are looked up using the given $id as key
  */
 class ArrayContainer implements ContainerInterface
@@ -71,7 +71,8 @@ class ArrayContainer implements ContainerInterface
     }
 
     /**
-     * Removed the entry for the given $id
+     * Removes the entry for the given $id
+     *
      * @param $id
      * @return ArrayContainer
      * @throws EntryNotFoundException
